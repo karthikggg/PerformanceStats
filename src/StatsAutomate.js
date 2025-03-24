@@ -45,9 +45,12 @@ const StatsAutomate= () => {
           MG: [131, 140],
           ADM: [141, 149],
           "MR-AA Reporting": [150, 158],
-          Uti: [159, 159],
-          Attendance: [160, 162],
-          "PKT Scores": [164, 164],
+          "National Pre Coding": [159, 166],
+          Uti: [167, 167],
+          Attendance: [168, 170],
+          "Mentored Employees": [171, 171],
+          "PKT Scores": [172, 172],
+         
         };
         
         // Process each sheet
