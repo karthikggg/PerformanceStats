@@ -240,7 +240,7 @@ function EmployeeReportGenerator() {
     setRowsToInsert(updatedRows);
   };
 
-  const [newEmployee, setNewEmployee] = useState({ id: "", name: "" });
+  const [newEmployee, setNewEmployee] = useState([{ id: "", name: "" }]);
 
   const handleAddEmployee = () => {
     if (!newEmployeeId || !newEmployeeName) {

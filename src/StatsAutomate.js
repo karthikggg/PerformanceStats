@@ -29,28 +29,27 @@ const StatsAutomate= () => {
         const finalWorkbook = new ExcelJS.Workbook();
         await finalWorkbook.xlsx.load(await finalFile.arrayBuffer());
         const sheetRowMapping = {
-          "Ad copy QC": [2, 14],
+          "Amp Ad Copy QC": [2, 14],
           "Retail Ad copy QC": [15, 27],
-          "LA Uploads": [28, 36],
-          "Coding and Uploads": [37, 45],
+          "National Copy Uploads": [28, 36],
+          "Retail Copy Uploads": [37, 45],
           "Fulfillment Digital": [46, 54],
-          Screenshot: [55, 63],
+          "Screenshot": [55, 63],
           "Enterprise QC": [64, 76],
           "Enterprise Uploads": [77, 85],
-          DR: [86, 94],
-          "Amp DR": [95, 103],
-          "Amp OE": [104, 112],
-          ROE: [113, 121],
-          QAR: [122, 130],
-          MG: [131, 140],
-          ADM: [141, 149],
+          "DR": [86, 94],
+          "AMP DR": [95, 103],
+          "AMP OE": [104, 112],
+          "ROE": [113, 121],
+          "QAR": [122, 130],
+          "MG": [131, 140],
+          "ADM": [141, 149],
           "MR-AA Reporting": [150, 158],
-          "National Pre Coding": [159, 166],
-          Uti: [167, 167],
-          Attendance: [168, 170],
-          "Mentored Employees": [171, 171],
+          "National Coding": [159, 166],
+          "Uti": [167, 167],
+          "Attendance": [168, 170],
+          "Buddy List": [171, 171],
           "PKT Scores": [172, 172],
-         
         };
         
         // Process each sheet
